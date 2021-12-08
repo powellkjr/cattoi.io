@@ -1,4 +1,4 @@
-@startuml Basic Sample
+@startuml L2_cattoiio
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
 Person(humanAlias, "User", "The Cat Owner")
