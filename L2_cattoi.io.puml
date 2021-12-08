@@ -6,7 +6,7 @@ Person(catAlias, "User", "The Cat")
 
 System_Boundary(lv2_cattoiioAlias, "Cattoi.io Container", $link="https://github.com/plantuml-stdlib/C4-PlantUML") {
     Container(cattoiio_webservice, "Cattoi.io Web Service", "Python", $descr="Allows users to confiugre and interact with profiles", $link="https://github.com/plantuml-stdlib/C4-PlantUML/blob/master/LayoutOptions.md")
-    Container(cattoiio_hardware, "Cattoi.io Hardware", "Linux, ARGB", $descr="Allows user to reset the Wifi Configuration and the cat to chase the lights", $link="https://github.com/plantuml-stdlib/C4-PlantUML/blob/master/LayoutOptions.md")
+    Container(cattoiio_hardware, "Cattoi.io Hardware", "Linux, ARGB", $descr="Allows user to reset the Wifi Configuration and the cat to chase the lights", $link="https://raw.githubusercontent.com/powellkjr/cattoi.io/main/circutDesign_bb.png")
 }
 
 Rel(humanAlias,cattoiio_webservice, "Uses" , "HTTP")
