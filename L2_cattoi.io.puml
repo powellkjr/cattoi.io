@@ -1,0 +1,17 @@
+@startuml Basic Sample
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(humanAlias, "User", "The Cat Owner")
+Person(catAlias, "User", "The Cat")
+
+System_Boundary(lv2_cattoiioAlias, "Cattoi.io Container", $link="https://github.com/plantuml-stdlib/C4-PlantUML") {
+    Container(cattoiio_webservice, "Cattoi.io Web Service", "Python", $descr="Allows users to confiugre and interact with profiles", $link="https://github.com/plantuml-stdlib/C4-PlantUML/blob/master/LayoutOptions.md")
+    Container(cattoiio_hardware, "Cattoi.io Hardware", "Linux, ARGB", $descr="Allows user to reset the Wifi Configuration and the cat to chase the lights", $link="https://github.com/plantuml-stdlib/C4-PlantUML/blob/master/LayoutOptions.md")
+}
+
+Rel(humanAlias,cattoiio_webservice, "Uses" , "HTTP")
+Rel(humanAlias,cattoiio_hardware, "Uses" , "Touch")
+
+Rel(catAlias,cattoiio_hardware, "Uses" , "Touch")
+Rel(catAlias,cattoiio_hardware, "Uses" , "Vision")
+@enduml
