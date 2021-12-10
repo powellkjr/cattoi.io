@@ -1,0 +1,30 @@
+@startuml L2_cattoiio
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+LAYOUT_LANDSCAPE()
+
+Person(humanAlias, "User", "The Cat Owner")
+
+System_Boundary(lv2_cattoiioAlias, "Cattoi.io", $link="https://github.com/plantuml-stdlib/C4-PlantUML") {
+    System_Boundary(L3_cattoiio_webservice, "Web Service", $link="https://github.com/plantuml-stdlib/C4-PlantUML") {
+    Component(webservice_WifiManager,"Wifi Manager","Linux,Python",$descr="Allows users to confiugre the wifi")
+    Component(webservice_ProfileManager,"Profile Manager","Python",$descr="Allows users to add/remove/load profiles")
+    Component(webservice_ARGBController,"ARGB Controller","Python",$descr="Allows users to interact with loaded profiles")
+    }
+    Container(cattoiio_hardware, "Cattoi.io Hardware", "Linux, ARGB", $descr="Allows user to reset the Wifi Configuration and the cat to chase the lights", $link="https://raw.githubusercontent.com/powellkjr/cattoi.io/main/circutDesign_bb.png")
+}
+
+
+Person(catAlias, "User", "The Cat")
+
+Rel(humanAlias,webservice_WifiManager, "Uses" , "HTTP")
+Rel(humanAlias,webservice_ProfileManager, "Uses" , "HTTP")
+Rel(humanAlias,webservice_ARGBController, "Uses" , "HTTP")
+Rel(humanAlias,cattoiio_hardware, "Uses" , "Touch")
+Rel(webservice_ARGBController,cattoiio_hardware,"Controls","GPIO")
+
+Rel_L(catAlias,cattoiio_hardware, "Uses" , "Touch")
+Rel(catAlias,cattoiio_hardware, "Uses" , "Vision")
+Rel_L(cattoiio_hardware,webservice_WifiManager,"Reset","GPIO")
+@enduml
