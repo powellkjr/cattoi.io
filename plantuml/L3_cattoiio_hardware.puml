@@ -1,0 +1,29 @@
+@startuml L3_cattoiio_hardware
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+LAYOUT_LANDSCAPE()
+
+Person(humanAlias, "User", "The Cat Owner")
+
+System_Boundary(lv2_cattoiioAlias, "Cattoi.io", $link="https://github.com/plantuml-stdlib/C4-PlantUML") {
+    System_Boundary(L3_cattoiio_hardware, "Cattoi.io Hardware", $link="https://github.com/plantuml-stdlib/C4-PlantUML") {
+    Component(hardware_LED,"WS2812B","NeoPixel",$descr="Allows ARGB display",$link="https://www.amazon.com/gp/product/B078S6Z9KG/")
+    Component(hardware_LEDCase,"LED diffuser","Aluminum",$descr="Allows LEDs to be rigid and diffused",$link="https://www.amazon.com/gp/product/B01M09PBYX")
+    Component(hardware_case,"3dPrinted Case","Fusion360",$descr="Allows the rpi0w2 to be contained, also attaches to diffuser",$link="https://a360.co/3JLv5Tm")
+    Component(hardware_wiring,"wiring","Aluminum",$descr="Allows LEDs to be rigid and diffused",$link="https://www.amazon.com/gp/product/B01M09PBYX")
+    Component(hardware_rpi0w2,"RPi0W 2","Fusion360",$descr="Operating system and power",$link="https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/")
+    }
+    Container(cattoiio_webservice, "Cattoi.io Web Service", "Python", $descr="Allows users to confiugre and interact with profiles", $link="https://raw.githubusercontent.com/powellkjr/cattoi.io/main/L3_cattoiio_webservice.puml")
+}
+
+
+Person(catAlias, "User", "The Cat")
+
+Rel(humanAlias,hardware_case, "Assemble")
+Rel(humanAlias,hardware_LEDCase, "Uses" , "Touch")
+Rel(humanAlias,hardware_LEDCase, "Uses" , "Vision")
+
+Rel_L(catAlias,hardware_LEDCase, "Uses" , "Touch")
+Rel(catAlias,hardware_LEDCase, "Uses" , "Vision")
+@enduml
