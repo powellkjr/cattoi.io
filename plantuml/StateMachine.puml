@@ -1,0 +1,79 @@
+@startuml
+!include <archimate/Archimate>
+
+
+state Initializing {
+[*] -> NoPower
+
+NoPower -> Booting : up to 3 minutes
+state WPA_SSID <<choice>>
+state Booting {
+  state " " as Booting_h #ff0000 ##ff0000
+}
+Booting: Intializing python and flask
+Booting --> WPA_SSID 
+WPA_SSID --> Access_MODE : NO SSID
+state Access_MODE {
+Access_MODE : 10.0.0.5\n(cattoiio.local)\n(cattoiio.lan)
+state " " as Access_Mode_h #ff00ff ##ff00ff
+state " " as Access_Mode_l #800080 ##800080
+Access_Mode_h  -> Access_Mode_l
+Access_Mode_h  <- Access_Mode_l
+}
+WPA_SSID --> LAN_MODE: FOUND SSID
+state LAN_MODE {
+  LAN_MODE: 192.168.x.x\n(cattoiio.local)\n(cattoiio.lan)
+  state " " as LAN_MODE_h #00ff00 ##00ff00
+  state " " as LAN_MODE_l #008000 ##008000
+LAN_MODE_h -> LAN_MODE_l 
+LAN_MODE_h <- LAN_MODE_l 
+}
+}
+
+
+state WebServer as "Cattoi.io Webserver" {
+
+  state ProfileManager as "Profile Manager" {
+    state Shift {
+      Shift: Shift pattern left and right
+      state " " as Shift_h #0000ff ##0000ff
+    }
+    state Peek {
+      Peek: Fade in and out randomly
+      state " " as Peek_h #00ffff ##00ffff
+    }
+
+    state Off {
+      Off: Blink Red
+      state " " as Off_h #ff0000 ##ff0000
+      state " " as Off_l #800000 ##800000
+      Off_h -> LAN_MODE_l 
+      LAN_MODE_h <- LAN_MODE_l 
+    }
+  }
+  state SSID {
+    RESCAN_ALL_SSID: Rescan and update the SSID list
+    state "Select an SSID" as selectSSID
+        selectSSID: Select an SSID from the list and add it to wpa_suplicant
+    state FlashGreen {
+      FlashGreen : Flash Green before reboot
+      state " " as FlashGreen_h #00FF00 ##00FF00
+    }
+    FORGET_ALL_SSID: remove all SSID from wpa_suplicant
+    state FlashMagenta {
+      FlashMagenta: Flash Magenta before reboot
+      state " " as FlashMagenta_h #FF00FF ##FF00FF
+    }
+    
+    selectSSID -down[hidden]-> RESCAN_ALL_SSID
+    RESCAN_ALL_SSID-down[hidden]-> FORGET_ALL_SSID
+    RESCAN_ALL_SSID -> FlashGreen
+    FlashGreen-> [*]
+    FORGET_ALL_SSID -> FlashMagenta
+    FlashMagenta -> [*]
+  }  
+  ProfileManager -down[hidden]-> SSID
+}
+Access_MODE --> WebServer : up to 2 minutes
+LAN_MODE --> WebServer : up to 2 minutes
+@enduml

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1406px" preserveAspectRatio="none" style="width:801px;height:1406px;background:#FFFFFF;" version="1.1" viewBox="0 0 801 1406" width="801px" zoomAndPan="magnify"><defs><filter height="300%" id="fesxl8y9i2mjb" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[11401b09369cd2555474c5c53948086b]
+cluster Initializing--><rect fill="#FEFECE" filter="url(#fesxl8y9i2mjb)" height="534" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="453" x="307" y="7"/><rect fill="#FFFFFF" height="500.3906" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="447" x="310" y="37.6094"/><line style="stroke:#A80036;stroke-width:1.5;" x1="307" x2="760" y1="34.6094" y2="34.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="503.5" y="25.5332">Initializing</text><!--MD5=[142deba053c5ad6593281f585d262f35]
+cluster LAN_MODE--><rect fill="#FEFECE" filter="url(#fesxl8y9i2mjb)" height="168" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="202" x="513" y="327"/><rect fill="#FFFFFF" height="84.1094" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="196" x="516" y="407.8906"/><line style="stroke:#A80036;stroke-width:1.5;" x1="513" x2="715" y1="404.8906" y2="404.8906"/><line style="stroke:#A80036;stroke-width:1.5;" x1="513" x2="715" y1="354.6094" y2="354.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="576" y="345.5332">LAN_MODE</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="61" x="518" y="369.5664">192.168.x.x</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="76" x="518" y="384.6602">(cattoiio.local)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="67" x="518" y="399.7539">(cattoiio.lan)</text><!--MD5=[3f0cd6d8531412bdb4ea35cf9a189c2b]
+cluster WebServer--><rect fill="#FEFECE" filter="url(#fesxl8y9i2mjb)" height="796" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="708" x="7" y="598"/><rect fill="#FFFFFF" height="762.3906" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="702" x="10" y="628.6094"/><line style="stroke:#A80036;stroke-width:1.5;" x1="7" x2="715" y1="625.6094" y2="625.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="298.5" y="616.5332">Cattoi.io Webserver</text><!--MD5=[31f1d6eb66e7e2ecb1fb1b7b8529f4aa]
+cluster ProfileManager--><rect fill="#FEFECE" filter="url(#fesxl8y9i2mjb)" height="221" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="620" x="47" y="658"/><rect fill="#FFFFFF" height="187.3906" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="614" x="50" y="688.6094"/><line style="stroke:#A80036;stroke-width:1.5;" x1="47" x2="667" y1="685.6094" y2="685.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="307" y="676.5332">Profile Manager</text><!--MD5=[2416fec59047133babdd5f9eb8999965]
+cluster Off--><rect fill="#FEFECE" filter="url(#fesxl8y9i2mjb)" height="122" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="167" x="468" y="710"/><rect fill="#FFFFFF" height="68.2969" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="161" x="471" y="760.7031"/><line style="stroke:#A80036;stroke-width:1.5;" x1="468" x2="635" y1="757.7031" y2="757.7031"/><line style="stroke:#A80036;stroke-width:1.5;" x1="468" x2="635" y1="737.6094" y2="737.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="19" x="525" y="728.5332">Off</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="473" y="752.5664">Blink Red</text><ellipse cx="333" cy="107" fill="#000000" filter="url(#fesxl8y9i2mjb)" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="Initializing.NoPower"><rect fill="#FEFECE" filter="url(#fesxl8y9i2mjb)" height="50" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="76" x="378" y="82"/><line style="stroke:#A80036;stroke-width:1.5;" x1="378" x2="454" y1="109.6094" y2="109.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="388" y="101.5332">NoPower</text></g><polygon fill="#FEFECE" filter="url(#fesxl8y9i2mjb)" points="660,232,672,244,660,256,648,244,660,232" style="stroke:#A80036;stroke-width:1.5;"/><rect fill="#FEFECE" filter="url(#fesxl8y9i2mjb)" height="127.7031" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="168" x="576" y="43"/><rect fill="#FFFFFF" height="74" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="162" x="579" y="93.7031"/><line style="stroke:#A80036;stroke-width:1.5;" x1="576" x2="744" y1="90.7031" y2="90.7031"/><line style="stroke:#A80036;stroke-width:1.5;" x1="576" x2="744" y1="70.6094" y2="70.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="636" y="62.5332">Booting</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="143" x="581" y="83.0664">Intializing python and flask</text><g id="Initializing.Booting.Booting_h"><rect fill="#FF0000" filter="url(#fesxl8y9i2mjb)" height="50" rx="12.5" ry="12.5" style="stroke:#FF0000;stroke-width:1.5;" width="50" x="588" y="102.7031"/><line style="stroke:#FF0000;stroke-width:1.5;" x1="588" x2="638" y1="130.3125" y2="130.3125"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="615" y="122.2363"/></g><rect fill="#FEFECE" filter="url(#fesxl8y9i2mjb)" height="157.8906" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="151" x="337.5" y="367"/><rect fill="#FFFFFF" height="74" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="145" x="340.5" y="447.8906"/><line style="stroke:#A80036;stroke-width:1.5;" x1="337.5" x2="488.5" y1="444.8906" y2="444.8906"/><line style="stroke:#A80036;stroke-width:1.5;" x1="337.5" x2="488.5" y1="394.6094" y2="394.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="366" y="386.5332">Access_MODE</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="44" x="342.5" y="407.0664">10.0.0.5</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="76" x="342.5" y="422.1602">(cattoiio.local)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="67" x="342.5" y="437.2539">(cattoiio.lan)</text><g id="Initializing.Access_MODE.Access_Mode_h"><rect fill="#FF00FF" filter="url(#fesxl8y9i2mjb)" height="50" rx="12.5" ry="12.5" style="stroke:#FF00FF;stroke-width:1.5;" width="50" x="349.5" y="456.8906"/><line style="stroke:#FF00FF;stroke-width:1.5;" x1="349.5" x2="399.5" y1="484.5" y2="484.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="376.5" y="476.4238"/></g><g id="Initializing.Access_MODE.Access_Mode_l"><rect fill="#800080" filter="url(#fesxl8y9i2mjb)" height="50" rx="12.5" ry="12.5" style="stroke:#800080;stroke-width:1.5;" width="50" x="417.5" y="456.8906"/><line style="stroke:#800080;stroke-width:1.5;" x1="417.5" x2="467.5" y1="484.5" y2="484.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="444.5" y="476.4238"/></g><!--MD5=[fe14588949a2632490909628628e3000]
+link Access_Mode_h to Access_Mode_l--><path d="M399.73,499.3906 C403.98,500.6006 408.22,500.9306 412.46,500.3906 " fill="none" id="Access_Mode_h-to-Access_Mode_l" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="417.44,499.3406,407.8102,497.2749,412.5466,500.3678,409.4537,505.1042,417.44,499.3406" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[3d7575094c047db3af8a3435081b2522]
+reverse link Access_Mode_h to Access_Mode_l--><path d="M404.71,463.3706 C408.96,462.8506 413.2,463.2106 417.44,464.4406 " fill="none" id="Access_Mode_h-backto-Access_Mode_l" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="399.73,464.3906,409.3481,466.5102,404.629,463.3908,407.7484,458.6718,399.73,464.3906" style="stroke:#000000;stroke-width:1.0;"/><g id="Initializing.LAN_MODE.LAN_MODE_h"><rect fill="#00FF00" filter="url(#fesxl8y9i2mjb)" height="50" rx="12.5" ry="12.5" style="stroke:#00FF00;stroke-width:1.5;" width="50" x="537" y="421"/><line style="stroke:#00FF00;stroke-width:1.5;" x1="537" x2="587" y1="448.6094" y2="448.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="564" y="440.5332"/></g><g id="Initializing.LAN_MODE.LAN_MODE_l"><rect fill="#008000" filter="url(#fesxl8y9i2mjb)" height="50" rx="12.5" ry="12.5" style="stroke:#008000;stroke-width:1.5;" width="50" x="622" y="421"/><line style="stroke:#008000;stroke-width:1.5;" x1="622" x2="672" y1="448.6094" y2="448.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="649" y="440.5332"/></g><rect fill="#FEFECE" filter="url(#fesxl8y9i2mjb)" height="436.3125" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="524" x="31" y="934"/><rect fill="#FFFFFF" height="402.7031" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="518" x="34" y="964.6094"/><line style="stroke:#A80036;stroke-width:1.5;" x1="31" x2="555" y1="961.6094" y2="961.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="277.5" y="953.5332">SSID</text><g id="WebServer.SSID.RESCAN_ALL_SSID"><rect fill="#FEFECE" filter="url(#fesxl8y9i2mjb)" height="52.7031" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="198" x="121.5" y="1100.1094"/><line style="stroke:#A80036;stroke-width:1.5;" x1="121.5" x2="319.5" y1="1127.7188" y2="1127.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="156.5" y="1119.6426">RESCAN_ALL_SSID</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="178" x="126.5" y="1145.1758">Rescan and update the SSID list</text></g><g id="WebServer.SSID.selectSSID"><rect fill="#FEFECE" filter="url(#fesxl8y9i2mjb)" height="52.7031" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="322" x="59.5" y="973.6094"/><line style="stroke:#A80036;stroke-width:1.5;" x1="59.5" x2="381.5" y1="1001.2188" y2="1001.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="173.5" y="993.1426">Select an SSID</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="302" x="64.5" y="1018.6758">Select an SSID from the list and add it to wpa_suplicant</text></g><g id="WebServer.SSID.FORGET_ALL_SSID"><rect fill="#FEFECE" filter="url(#fesxl8y9i2mjb)" height="52.7031" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="219" x="43" y="1264.1094"/><line style="stroke:#A80036;stroke-width:1.5;" x1="43" x2="262" y1="1291.7188" y2="1291.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="87" y="1283.6426">FORGET_ALL_SSID</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="199" x="48" y="1309.1758">remove all SSID from wpa_suplicant</text></g><ellipse cx="490.5" cy="1290.6094" filter="url(#fesxl8y9i2mjb)" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;fill:none;"/><ellipse cx="491" cy="1291.1094" fill="#000000" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><rect fill="#FEFECE" filter="url(#fesxl8y9i2mjb)" height="127.7031" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="169" x="372" y="1062.6094"/><rect fill="#FFFFFF" height="74" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="163" x="375" y="1113.3125"/><line style="stroke:#A80036;stroke-width:1.5;" x1="372" x2="541" y1="1110.3125" y2="1110.3125"/><line style="stroke:#A80036;stroke-width:1.5;" x1="372" x2="541" y1="1090.2188" y2="1090.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="419" y="1082.1426">FlashGreen</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="377" y="1102.6758">Flash Green before reboot</text><g id="WebServer.SSID.FlashGreen.FlashGreen_h"><rect fill="#00FF00" filter="url(#fesxl8y9i2mjb)" height="50" rx="12.5" ry="12.5" style="stroke:#00FF00;stroke-width:1.5;" width="50" x="384" y="1122.3125"/><line style="stroke:#00FF00;stroke-width:1.5;" x1="384" x2="434" y1="1149.9219" y2="1149.9219"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="411" y="1141.8457"/></g><rect fill="#FEFECE" filter="url(#fesxl8y9i2mjb)" height="127.7031" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="182" x="280.5" y="1226.6094"/><rect fill="#FFFFFF" height="74" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="176" x="283.5" y="1277.3125"/><line style="stroke:#A80036;stroke-width:1.5;" x1="280.5" x2="462.5" y1="1274.3125" y2="1274.3125"/><line style="stroke:#A80036;stroke-width:1.5;" x1="280.5" x2="462.5" y1="1254.2188" y2="1254.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="326.5" y="1246.1426">FlashMagenta</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="157" x="285.5" y="1266.6758">Flash Magenta before reboot</text><g id="WebServer.SSID.FlashMagenta.FlashMagenta_h"><rect fill="#FF00FF" filter="url(#fesxl8y9i2mjb)" height="50" rx="12.5" ry="12.5" style="stroke:#FF00FF;stroke-width:1.5;" width="50" x="292.5" y="1286.3125"/><line style="stroke:#FF00FF;stroke-width:1.5;" x1="292.5" x2="342.5" y1="1313.9219" y2="1313.9219"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="319.5" y="1305.8457"/></g><!--MD5=[aa656bbe0d99d1f8ce3d9a260579c0f0]
+link selectSSID to RESCAN_ALL_SSID--><!--MD5=[e6bdda6af39f0bdf816f2eb303bddcdc]
+link RESCAN_ALL_SSID to FORGET_ALL_SSID--><!--MD5=[72ab928fc89cf35b1bb28379915f106c]
+link RESCAN_ALL_SSID to FlashGreen--><path d="M319.6,1126.6094 C335.22,1126.6094 350.83,1126.6094 366.45,1126.6094 " fill="none" id="RESCAN_ALL_SSID-to-FlashGreen" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="371.74,1126.6094,362.74,1122.6094,366.74,1126.6094,362.74,1130.6094,371.74,1126.6094" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[616aa4d7696de159f0c1e1a7161eefc7]
+link FlashGreen to *end*SSID--><path d="M469.74,1190.7094 C476.23,1221.6194 483.49,1256.1994 487.47,1275.1794 " fill="none" id="FlashGreen-to-*end*SSID" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="488.6,1280.5494,490.6601,1270.9184,487.5699,1275.6566,482.8317,1272.5665,488.6,1280.5494" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[d2afe8d8a7e98fc927a0526ef0aafd21]
+link FORGET_ALL_SSID to FlashMagenta--><path d="M262.43,1290.6094 C266.71,1290.6094 271,1290.6094 275.29,1290.6094 " fill="none" id="FORGET_ALL_SSID-to-FlashMagenta" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="280.32,1290.6094,271.32,1286.6094,275.32,1290.6094,271.32,1294.6094,280.32,1290.6094" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[e528689d5eccac7833cf8b75ef625963]
+link FlashMagenta to *end*SSID--><path d="M462.61,1290.6094 C466.89,1290.6094 471.17,1290.6094 475.45,1290.6094 " fill="none" id="FlashMagenta-to-*end*SSID" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="480.48,1290.6094,471.48,1286.6094,475.48,1290.6094,471.48,1294.6094,480.48,1290.6094" style="stroke:#000000;stroke-width:1.0;"/><rect fill="#FEFECE" filter="url(#fesxl8y9i2mjb)" height="127.7031" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="160" x="289" y="727"/><rect fill="#FFFFFF" height="74" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="154" x="292" y="777.7031"/><line style="stroke:#A80036;stroke-width:1.5;" x1="289" x2="449" y1="774.7031" y2="774.7031"/><line style="stroke:#A80036;stroke-width:1.5;" x1="289" x2="449" y1="754.6094" y2="754.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="355" y="746.5332">Shift</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="135" x="294" y="767.0664">Shift pattern left and right</text><g id="WebServer.ProfileManager.Shift.Shift_h"><rect fill="#0000FF" filter="url(#fesxl8y9i2mjb)" height="50" rx="12.5" ry="12.5" style="stroke:#0000FF;stroke-width:1.5;" width="50" x="301" y="786.7031"/><line style="stroke:#0000FF;stroke-width:1.5;" x1="301" x2="351" y1="814.3125" y2="814.3125"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="328" y="806.2363"/></g><rect fill="#FEFECE" filter="url(#fesxl8y9i2mjb)" height="127.7031" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="164" x="90" y="727"/><rect fill="#FFFFFF" height="74" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="158" x="93" y="777.7031"/><line style="stroke:#A80036;stroke-width:1.5;" x1="90" x2="254" y1="774.7031" y2="774.7031"/><line style="stroke:#A80036;stroke-width:1.5;" x1="90" x2="254" y1="754.6094" y2="754.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="156" y="746.5332">Peek</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="139" x="95" y="767.0664">Fade in and out randomly</text><g id="WebServer.ProfileManager.Peek.Peek_h"><rect fill="#00FFFF" filter="url(#fesxl8y9i2mjb)" height="50" rx="12.5" ry="12.5" style="stroke:#00FFFF;stroke-width:1.5;" width="50" x="102" y="786.7031"/><line style="stroke:#00FFFF;stroke-width:1.5;" x1="102" x2="152" y1="814.3125" y2="814.3125"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="129" y="806.2363"/></g><g id="WebServer.ProfileManager.Off.Off_h"><rect fill="#FF0000" filter="url(#fesxl8y9i2mjb)" height="50" rx="12.5" ry="12.5" style="stroke:#FF0000;stroke-width:1.5;" width="50" x="569" y="766"/><line style="stroke:#FF0000;stroke-width:1.5;" x1="569" x2="619" y1="793.6094" y2="793.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="596" y="785.5332"/></g><g id="WebServer.ProfileManager.Off.Off_l"><rect fill="#800000" filter="url(#fesxl8y9i2mjb)" height="50" rx="12.5" ry="12.5" style="stroke:#800000;stroke-width:1.5;" width="50" x="484" y="766"/><line style="stroke:#800000;stroke-width:1.5;" x1="484" x2="534" y1="793.6094" y2="793.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="511" y="785.5332"/></g><!--MD5=[32a4b01bc1c67567ad0364b26462b08d]
+link *start*Initializing to NoPower--><path d="M343.05,107 C352.92,107 362.79,107 372.66,107 " fill="none" id="*start*Initializing-to-NoPower" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="377.82,107,368.82,103,372.82,107,368.82,111,377.82,107" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[1a104a0b8070795d743b799b443d60be]
+link NoPower to Booting--><path d="M454.13,107 C485.23,107 530.44,107 570.57,107 " fill="none" id="NoPower-to-Booting" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="575.94,107,566.94,103,570.94,107,566.94,111,575.94,107" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="85" x="472.5" y="100.457">up to 3 minutes</text><!--MD5=[46c7d69a335c349e5c9aa69913f3d8b0]
+link Booting to WPA_SSID--><path d="M660,171.15 C660,191.51 660,212.39 660,226.36 " fill="none" id="Booting-to-WPA_SSID" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="660,231.54,664,222.54,660,226.54,656,222.54,660,231.54" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[af05234e66db760093c6c65c1b9c1d78]
+link WPA_SSID to Access_MODE--><path d="M651.44,247.56 C628.5,254.74 564.42,276.75 521,311 C502.35,325.71 484.87,344.2 469.63,362.71 " fill="none" id="WPA_SSID-to-Access_MODE" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="466.21,366.91,474.9898,362.4473,469.363,363.0294,468.7809,357.4026,466.21,366.91" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="49" x="557" y="299.457">NO SSID</text><!--MD5=[1232060dafc0af187aa6f66db5fb4351]
+link WPA_SSID to LAN_MODE--><path d="M663.94,252.49 C670.09,264.49 681.87,288.93 688,311 C688.9906,314.5656 689.9313,318.1997 690.8244,321.8804 C691.0477,322.8005 691.268,323.7236 691.4853,324.6493 C691.594,325.1121 691.702,325.5755 691.8092,326.0396 C691.8628,326.2716 691.9162,326.5038 691.9695,326.7361 " fill="none" id="WPA_SSID-to-LAN_MODE" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="691.9695,326.7361,693.8578,317.07,690.8525,321.8625,686.06,318.8572,691.9695,326.7361" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="74" x="686" y="299.457">FOUND SSID</text><!--MD5=[53236f8a415721569024fd94a76e6851]
+link LAN_MODE_h to LAN_MODE_l--><path d="M587.23,461.66 C597.13,465.2 607.03,465.7 616.93,463.15 " fill="none" id="LAN_MODE_h-to-LAN_MODE_l" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="621.79,461.65,612.0109,460.4798,617.012,463.1234,614.3684,468.1246,621.79,461.65" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[b33274df752ae324befeaeed8a958a10]
+reverse link LAN_MODE_h to LAN_MODE_l--><path d="M592.36,446 C602.17,446 611.98,446 621.79,446 " fill="none" id="LAN_MODE_h-backto-LAN_MODE_l" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="587.23,446,596.23,450,592.23,446,596.23,442,587.23,446" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[b33274df752ae324befeaeed8a958a10]
+reverse link LAN_MODE_h to LAN_MODE_l--><path d="M592.09,428.85 C601.99,426.3 611.89,426.8 621.79,430.35 " fill="none" id="LAN_MODE_h-backto-LAN_MODE_l-1" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="587.23,430.34,597.0081,431.5184,592.0092,428.8706,594.657,423.8717,587.23,430.34" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[fc561db6caeeb704326c5f5027e04251]
+link Off_h to LAN_MODE_l--><path d="M597.06,765.94 C602.05,727.15 612.47,648.44 623,582 C628.79,545.48 636.39,503.58 641.47,476.27 " fill="none" id="Off_h-to-LAN_MODE_l" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="642.39,471.34,636.8113,479.4565,641.4755,476.2557,644.6763,480.9198,642.39,471.34" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[51d2eaca1c4847c4e29d5c1ee378b6c4]
+link ProfileManager to SSID--><!--MD5=[4422c8c9bad6cb2878a4a737b28483a8]
+link Access_MODE to WebServer--><path d="M486.95,525.15 C497.77,534.03 509.25,542.28 521,549 C526.72,552.27 630.22,577.46 635,582 C639.3638,586.145 643.4631,590.5673 647.314,595.217 C647.7954,595.7982 648.2729,596.383 648.7465,596.9712 C648.9833,597.2653 649.2192,597.5603 649.4541,597.8561 " fill="none" id="Access_MODE-to-WebServer" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="649.4541,597.8561,646.9901,588.3205,646.3449,593.9404,640.725,593.2952,649.4541,597.8561" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="85" x="610" y="570.457">up to 2 minutes</text><!--MD5=[fc980153edcfabb4ccd8d281e38d6adc]
+link LAN_MODE to WebServer--><path d="M707,496.2396 C707,498.1563 707,500.1154 707,502.1144 C707,518.1066 707,536.6548 707,556.481 C707,566.3941 707,576.6267 707,587.0189 C707,589.617 707,592.225 707,594.8406 C707,595.4944 707,596.1488 707,596.8036 C707,597.131 707,597.4585 707,597.7861 " fill="none" id="LAN_MODE-to-WebServer" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="707,597.7861,711,588.7861,707,592.7861,703,588.7861,707,597.7861" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="85" x="708" y="570.457">up to 2 minutes</text><!--MD5=[fb63675de1b7f11f18cff8327691690d]
+@startuml
+!include <archimate/Archimate>
+
+
+state Initializing {
+[*] -> NoPower
+
+NoPower -> Booting : up to 3 minutes
+state WPA_SSID <<choice>>
+state Booting {
+  state " " as Booting_h #ff0000 ##ff0000
+}
+Booting: Intializing python and flask
+Booting - -> WPA_SSID 
+WPA_SSID - -> Access_MODE : NO SSID
+state Access_MODE {
+Access_MODE : 10.0.0.5\n(cattoiio.local)\n(cattoiio.lan)
+state " " as Access_Mode_h #ff00ff ##ff00ff
+state " " as Access_Mode_l #800080 ##800080
+Access_Mode_h  -> Access_Mode_l
+Access_Mode_h  <- Access_Mode_l
+}
+WPA_SSID - -> LAN_MODE: FOUND SSID
+state LAN_MODE {
+  LAN_MODE: 192.168.x.x\n(cattoiio.local)\n(cattoiio.lan)
+  state " " as LAN_MODE_h #00ff00 ##00ff00
+  state " " as LAN_MODE_l #008000 ##008000
+LAN_MODE_h -> LAN_MODE_l 
+LAN_MODE_h <- LAN_MODE_l 
+}
+}
+
+
+state WebServer as "Cattoi.io Webserver" {
+
+  state ProfileManager as "Profile Manager" {
+    state Shift {
+      Shift: Shift pattern left and right
+      state " " as Shift_h #0000ff ##0000ff
+    }
+    state Peek {
+      Peek: Fade in and out randomly
+      state " " as Peek_h #00ffff ##00ffff
+    }
+
+    state Off {
+      Off: Blink Red
+      state " " as Off_h #ff0000 ##ff0000
+      state " " as Off_l #800000 ##800000
+      Off_h -> LAN_MODE_l 
+      LAN_MODE_h <- LAN_MODE_l 
+    }
+  }
+  state SSID {
+    RESCAN_ALL_SSID: Rescan and update the SSID list
+    state "Select an SSID" as selectSSID
+        selectSSID: Select an SSID from the list and add it to wpa_suplicant
+    state FlashGreen {
+      FlashGreen : Flash Green before reboot
+      state " " as FlashGreen_h #00FF00 ##00FF00
+    }
+    FORGET_ALL_SSID: remove all SSID from wpa_suplicant
+    state FlashMagenta {
+      FlashMagenta: Flash Magenta before reboot
+      state " " as FlashMagenta_h #FF00FF ##FF00FF
+    }
+    
+    selectSSID -down[hidden]-> RESCAN_ALL_SSID
+    RESCAN_ALL_SSID-down[hidden]-> FORGET_ALL_SSID
+    RESCAN_ALL_SSID -> FlashGreen
+    FlashGreen-> [*]
+    FORGET_ALL_SSID -> FlashMagenta
+    FlashMagenta -> [*]
+  }  
+  ProfileManager -down[hidden]-> SSID
+}
+Access_MODE - -> WebServer : up to 2 minutes
+LAN_MODE - -> WebServer : up to 2 minutes
+@enduml
+
+@startuml
+
+
+skinparam defaultTextAlignment center
+skinparam wrapWidth 400
+skinparam maxMessageSize 150
+skinparam StereotypeAlignment right
+
+skinparam Arrow {
+    Color #000000
+    FontColor #000000
+    FontSize 12
+}
+skinparam Folder<<grouping>> {
+    Shadowing true
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam Folder<<group>> {
+    Shadowing true
+    StereotypeFontSize 0
+    FontColor #444444
+    BackgroundColor lightgrey
+}
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam node {
+  StereotypeAlignment right
+}
+skinparam cloud {
+  StereotypeAlignment right
+}
+skinparam frame {
+  StereotypeAlignment right
+}
+skinparam archimate {
+  StereotypeAlignment right
+  RoundCorner<<strategy-capability>> 25
+  RoundCorner<<strategy-course-of-action>> 25
+  RoundCorner<<strategy-value-stream>> 25
+  RoundCorner<<business-process>> 25
+  RoundCorner<<business-event>> 25
+  RoundCorner<<business-function>> 25
+  RoundCorner<<business-interaction>> 25
+  RoundCorner<<business-event>> 25
+  RoundCorner<<business-service>> 25
+  RoundCorner<<application-function>> 25
+  RoundCorner<<application-interaction>> 25
+  RoundCorner<<application-process>> 25
+  RoundCorner<<application-event>> 25
+  RoundCorner<<application-service>> 25
+  RoundCorner<<technology-function>> 25
+  RoundCorner<<technology-process>> 25
+  RoundCorner<<technology-interaction>> 25
+  RoundCorner<<technology-event>> 25
+  RoundCorner<<technology-infra-service>> 25
+  RoundCorner<<implementation-workpackage>> 25
+  RoundCorner<<implementation-event>> 25
+  DiagonalCorner<<motivation-stakeholder>> 12
+  DiagonalCorner<<motivation-driver>> 12
+  DiagonalCorner<<motivation-assessment>> 12
+  DiagonalCorner<<motivation-goal>> 12
+  DiagonalCorner<<motivation-outcome>> 12
+  DiagonalCorner<<motivation-principle>> 12
+  DiagonalCorner<<motivation-requirement>> 12
+  DiagonalCorner<<motivation-constraint>> 12
+}
+skinparam usecase {
+  BorderColor #000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+state Initializing {
+[*] -> NoPower
+
+NoPower -> Booting : up to 3 minutes
+state WPA_SSID <<choice>>
+state Booting {
+  state " " as Booting_h #ff0000 ##ff0000
+}
+Booting: Intializing python and flask
+Booting - -> WPA_SSID 
+WPA_SSID - -> Access_MODE : NO SSID
+state Access_MODE {
+Access_MODE : 10.0.0.5\n(cattoiio.local)\n(cattoiio.lan)
+state " " as Access_Mode_h #ff00ff ##ff00ff
+state " " as Access_Mode_l #800080 ##800080
+Access_Mode_h  -> Access_Mode_l
+Access_Mode_h  <- Access_Mode_l
+}
+WPA_SSID - -> LAN_MODE: FOUND SSID
+state LAN_MODE {
+  LAN_MODE: 192.168.x.x\n(cattoiio.local)\n(cattoiio.lan)
+  state " " as LAN_MODE_h #00ff00 ##00ff00
+  state " " as LAN_MODE_l #008000 ##008000
+LAN_MODE_h -> LAN_MODE_l 
+LAN_MODE_h <- LAN_MODE_l 
+}
+}
+
+
+state WebServer as "Cattoi.io Webserver" {
+
+  state ProfileManager as "Profile Manager" {
+    state Shift {
+      Shift: Shift pattern left and right
+      state " " as Shift_h #0000ff ##0000ff
+    }
+    state Peek {
+      Peek: Fade in and out randomly
+      state " " as Peek_h #00ffff ##00ffff
+    }
+
+    state Off {
+      Off: Blink Red
+      state " " as Off_h #ff0000 ##ff0000
+      state " " as Off_l #800000 ##800000
+      Off_h -> LAN_MODE_l 
+      LAN_MODE_h <- LAN_MODE_l 
+    }
+  }
+  state SSID {
+    RESCAN_ALL_SSID: Rescan and update the SSID list
+    state "Select an SSID" as selectSSID
+        selectSSID: Select an SSID from the list and add it to wpa_suplicant
+    state FlashGreen {
+      FlashGreen : Flash Green before reboot
+      state " " as FlashGreen_h #00FF00 ##00FF00
+    }
+    FORGET_ALL_SSID: remove all SSID from wpa_suplicant
+    state FlashMagenta {
+      FlashMagenta: Flash Magenta before reboot
+      state " " as FlashMagenta_h #FF00FF ##FF00FF
+    }
+    
+    selectSSID -down[hidden]-> RESCAN_ALL_SSID
+    RESCAN_ALL_SSID-down[hidden]-> FORGET_ALL_SSID
+    RESCAN_ALL_SSID -> FlashGreen
+    FlashGreen-> [*]
+    FORGET_ALL_SSID -> FlashMagenta
+    FlashMagenta -> [*]
+  }  
+  ProfileManager -down[hidden]-> SSID
+}
+Access_MODE - -> WebServer : up to 2 minutes
+LAN_MODE - -> WebServer : up to 2 minutes
+@enduml
+
+PlantUML version 1.2021.16(Wed Dec 08 12:25:22 EST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) Client VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
