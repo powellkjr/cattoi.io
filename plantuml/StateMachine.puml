@@ -47,7 +47,7 @@ state WebServer as "Cattoi.io Webserver" {
       Off: Blink Red
       state " " as Off_h #ff0000 ##ff0000
       state " " as Off_l #800000 ##800000
-      Off_h -> LAN_MODE_l 
+      Off_h -> Off_l 
       LAN_MODE_h <- LAN_MODE_l 
     }
   }
